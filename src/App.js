@@ -8,6 +8,7 @@ const Description = () =>{
 const App = () =>{
     return ( //Llamado de componentes dentro de un componente
         <div className="App">
+             <h1>Hola mundo</h1>
             <Mensaje message='Estamos Trabajando' />
             <Mensaje message='En un curso' />
             <Mensaje message='De React' />
